@@ -2,8 +2,9 @@ const inputEl = document.querySelector("#password");
 const upperCaseCheckEl = document.querySelector("#uppercase-check");
 const numberCheckEl = document.querySelector("#number-check");
 const symbolCheckEl = document.querySelector("#symbol-check");
+const securityIndicatorBarEl = document.querySelector("#security-indicator-bar");
 
-let passwordLength = 16;
+let passwordLength = 8;
 
 
 function generatePassword() {
@@ -31,11 +32,20 @@ function generatePassword() {
 
 
     inputEl.value = password;
+    calculateQuality()
 
 }
 
 function calculateQuality() {
+    // 20% -> crítico -> 100% safe
+    // 64/64 = 1 -> 100%
 
+    const percent = Math.round((passwordLength / 64) * 100)
+
+    console.log(percent)
+
+    securityIndicatorBarEl.style.width = `${percent}%`;
+    
 }
 
 function copyPassword() {
@@ -49,7 +59,7 @@ passwordLengthEl.addEventListener("input", function () {
     document.querySelector("#password-length-text").innerText = passwordLength;
     generatePassword();
 })
-upperCaseCheckEl.addEventListener("chick", generatePassword);
+upperCaseCheckEl.addEventListener("click", generatePassword);
 numberCheckEl.addEventListener("click", generatePassword);
 symbolCheckEl.addEventListener("click", generatePassword);
 
