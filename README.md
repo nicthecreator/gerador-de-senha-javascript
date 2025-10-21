@@ -38,7 +38,8 @@ Você pode acessar a calculadora diretamente pelo link do GitHub Pages:
 
 ➡️ https://nicthecreator.github.io/gerador-de-senha-javascript/
 
-2. Como este é um projeto de front-end puro, não há necessidade de instalação de dependências.
+
+Como este é um projeto de front-end puro, não há necessidade de instalação de dependências.
 
 1.  Clone este repositório:
     ```bash
