@@ -2,10 +2,7 @@
 
 Um projeto simples e eficaz em JavaScript puro para gerar senhas seguras. Inclui opções de personalização e um medidor de força de senha em tempo real.
 
-![Demonstração do Gerador de Senhas][Animação]
-(https://github.com/user-attachments/assets/ea463b47-2427-4396-b381-7a8613ade804)
-
-*(Substitua a imagem acima por um screenshot do seu projeto!)*
+![Image](https://github.com/user-attachments/assets/3af90876-55fd-4356-add6-cfee744c30d2)
 
 ---
 
