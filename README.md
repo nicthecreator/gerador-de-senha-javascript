@@ -40,15 +40,15 @@ Você pode acessar a calculadora diretamente pelo link do GitHub Pages:
 
 2. Como este é um projeto de front-end puro, não há necessidade de instalação de dependências.
 
-  1.  Clone este repositório:
+1.  Clone este repositório:
     ```bash
     git clone https://github.com/nicthecreator/gerador-de-senha-javascript.git
     ```
-  2.  Navegue até a pasta do projeto:
+2.  Navegue até a pasta do projeto:
     ```bash
     cd seu-repositorio
     ```
-  3.  Abra o arquivo `index.html` no seu navegador de preferência.
+3.  Abra o arquivo `index.html` no seu navegador de preferência.
 
 E pronto! Você já pode gerar suas senhas.
 
